@@ -5,7 +5,6 @@ import { AppComponent } from './app.component';
 import { ContactListComponent } from './contact-list/contact-list.component';
 import { ContactDetailComponent } from './contact-detail/contact-detail.component';
 import { FormsModule } from '@angular/forms';
-import { RechercheClientComponent } from './recherche-client/recherche-client.component';
 
 
 @NgModule({
@@ -13,7 +12,7 @@ import { RechercheClientComponent } from './recherche-client/recherche-client.co
     AppComponent,
     ContactListComponent,
     ContactDetailComponent,
-    RechercheClientComponent,
+
 
   ],
   imports: [
